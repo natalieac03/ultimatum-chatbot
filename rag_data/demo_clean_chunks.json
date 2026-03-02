@@ -1,0 +1,68 @@
+[
+  {
+    "chunk_id": "CHUNK-001",
+    "case_id": "CASO-001",
+    "title": "Resumo do caso de obrigação de fazer",
+    "tags": [
+      "saude",
+      "tutela_urgencia",
+      "obrigacao_de_fazer"
+    ],
+    "content": "Parte autora busca tutela de urgência para obter medicamento de alto custo após negativa de cobertura. O foco jurídico está na urgência do tratamento, no risco de agravamento e na necessidade de fornecimento rápido."
+  },
+  {
+    "chunk_id": "CHUNK-002",
+    "case_id": "CASO-001",
+    "title": "Ponto de cautela sobre dado sensível",
+    "tags": [
+      "saude",
+      "privacidade",
+      "dados_sensiveis"
+    ],
+    "content": "Há referência a informação de saúde. O assistente deve resumir apenas o estritamente necessário, sem reproduzir integralmente laudo médico nem expor identificadores diretos."
+  },
+  {
+    "chunk_id": "CHUNK-003",
+    "case_id": "CASO-002",
+    "title": "Resumo do caso de revisão bancária",
+    "tags": [
+      "bancario",
+      "revisao_contratual",
+      "repeticao_indebito"
+    ],
+    "content": "Parte autora questiona juros e tarifas considerados abusivos em contrato bancário. O pedido central envolve revisão contratual e devolução de cobranças indevidas."
+  },
+  {
+    "chunk_id": "CHUNK-004",
+    "case_id": "CASO-002",
+    "title": "Escopo seguro de resposta no caso bancário",
+    "tags": [
+      "bancario",
+      "resumo",
+      "mascaramento"
+    ],
+    "content": "O assistente pode resumir cláusulas e padrões de cobrança, mas não deve retornar dados cadastrais completos nem reproduzir documentos integrais sem justificativa e permissão adequada."
+  },
+  {
+    "chunk_id": "CHUNK-005",
+    "case_id": "CASO-003",
+    "title": "Resumo do caso de vazamento de dados",
+    "tags": [
+      "lgpd",
+      "incidente",
+      "dano_moral"
+    ],
+    "content": "Parte autora relata incidente de segurança com exposição de dados cadastrais e histórico de atendimento. O caso é útil para discutir logs, governança, contenção e reparação."
+  },
+  {
+    "chunk_id": "CHUNK-006",
+    "case_id": "CASO-003",
+    "title": "Boas práticas para chatbot no contexto do incidente",
+    "tags": [
+      "lgpd",
+      "governanca",
+      "controle_de_acesso"
+    ],
+    "content": "A arquitetura deve limitar acesso por perfil, registrar consultas, evitar resposta com identificadores e recuperar apenas trechos higienizados do índice de busca."
+  }
+]

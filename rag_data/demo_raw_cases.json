@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "CASO-001",
+    "title": "Obrigação de fazer - fornecimento de medicamento",
+    "client": {
+      "name": "Ana Souza Lima",
+      "cpf": "123.456.789-00",
+      "address": "Rua das Acácias, 100, Setor Bueno, Goiânia-GO",
+      "phone": "(62) 99111-2233"
+    },
+    "process_number": "5001234-10.2026.8.09.0001",
+    "summary": "A autora relata diagnóstico crônico e requer fornecimento contínuo de medicamento de alto custo negado pela operadora de saúde.",
+    "main_request": "Tutela de urgência para fornecimento do medicamento em até 48 horas.",
+    "attachments": [
+      {
+        "type": "laudo_medico",
+        "content": "Laudo médico emitido em 15/02/2026: paciente com condição autoimune em tratamento contínuo, com risco de agravamento em caso de interrupção. Uso prescrito de imunobiológico de alto custo."
+      },
+      {
+        "type": "negativa_plano",
+        "content": "Documento interno da operadora informa negativa de cobertura sob alegação de medicamento fora do rol regular."
+      }
+    ],
+    "internal_notes": "Equipe deve evitar expor dados de saúde em respostas abertas do chatbot."
+  },
+  {
+    "case_id": "CASO-002",
+    "title": "Revisão contratual bancária com pedido de repetição de indébito",
+    "client": {
+      "name": "Carlos Henrique Prado",
+      "cpf": "987.654.321-00",
+      "address": "Avenida T-4, 850, Serrinha, Goiânia-GO",
+      "phone": "(62) 98888-7766"
+    },
+    "process_number": "5015678-22.2026.8.09.0001",
+    "summary": "O autor alega cobrança de tarifas e juros abusivos em contrato de empréstimo pessoal firmado em 2025.",
+    "main_request": "Revisão das cláusulas abusivas e devolução em dobro dos valores cobrados indevidamente.",
+    "attachments": [
+      {
+        "type": "contrato",
+        "content": "Contrato bancário com taxa nominal de 6,8% ao mês, CET significativamente superior à média de mercado indicada pelo autor."
+      },
+      {
+        "type": "extratos",
+        "content": "Extratos com lançamentos mensais repetidos de tarifa administrativa e seguro não solicitado."
+      }
+    ],
+    "internal_notes": "Respostas podem resumir cláusulas e cobranças, mas não devem exibir dados completos do cliente sem necessidade."
+  },
+  {
+    "case_id": "CASO-003",
+    "title": "Responsabilidade civil por vazamento de dados",
+    "client": {
+      "name": "Mariana Alves Rocha",
+      "cpf": "456.123.789-10",
+      "address": "Rua 5, 42, Centro, Anápolis-GO",
+      "phone": "(62) 97777-3344"
+    },
+    "process_number": "5020001-45.2026.8.09.0005",
+    "summary": "A autora relata vazamento de dados cadastrais e histórico de atendimento, seguido de tentativas de fraude e ligações insistentes.",
+    "main_request": "Indenização por danos morais, medidas corretivas e exibição de registro de incidente.",
+    "attachments": [
+      {
+        "type": "relatorio_incidente",
+        "content": "Relatório interno aponta acesso indevido por credencial comprometida e ausência de mascaramento em exportação de dados."
+      },
+      {
+        "type": "prints",
+        "content": "Capturas de tela com contatos suspeitos e tentativas de redefinição de senha após o incidente."
+      }
+    ],
+    "internal_notes": "Caso útil para explicar governança, logs, perfis de acesso e minimização."
+  }
+]
