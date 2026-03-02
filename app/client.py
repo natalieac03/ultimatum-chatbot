@@ -9,7 +9,7 @@ load_dotenv()
 def get_client() -> AsyncOpenAI:
     api_key = os.getenv("OPENROUTER_API_KEY")
     if not api_key:
-        raise ValueError("OPENROUTER_API_KEY não definida no ambiente.")
+        raise ValueError("A chave da Open Router não definida no ambiente.")
 
     return AsyncOpenAI(
         api_key=api_key,
