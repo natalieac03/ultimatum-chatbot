@@ -5,7 +5,7 @@ from app.routes.chat import router as chat_router
 
 app = FastAPI(
     title="LLM Service",
-    description="Serviço de chamada a LLMs via OpenRouter",
+    description="Chamando a LLM via OpenRouter",
     version="0.1.0",
     docs_url="/docs",
 )
