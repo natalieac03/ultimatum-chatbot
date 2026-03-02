@@ -11,7 +11,7 @@ class ChatRequest(BaseModel):
 
     model: str = Field(
         "qwen/qwen-2.5-72b-instruct",
-        description="Modelo a ser utilizado via OpenRouter",
+        description="Modelo que vai ser usado de baser",
         examples=["qwen/qwen-2.5-72b-instruct", "openai/gpt-4o-mini", "anthropic/claude-3.5-sonnet"],
     )
 
