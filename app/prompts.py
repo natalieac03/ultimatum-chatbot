@@ -2,8 +2,8 @@
 Prompts do sistema.
 
 Agora existem dois modos:
-- SAFE_SYSTEM_PROMPT: com governança de privacidade
-- UNSAFE_SYSTEM_PROMPT: sem governança forte, para fins de contraste na demo
+- SAFE_SYSTEM_PROMPT: mais "seguro"
+- UNSAFE_SYSTEM_PROMPT: sem muita barreira pra conseguir informação confidencial.
 """
 
 SAFE_SYSTEM_PROMPT = """
